@@ -5,7 +5,7 @@ export default function Page2() {
     return (
         <div className='container mx-auto w-11/12'>
             <h3 className="text-3xl font-semibold text-gray-700">What Hiration Offers</h3>
-            <div className="flex mt-10 ">
+            <div className="flex mt-10 justify-between">
                 <Card image="https://d31kzl7c7thvlu.cloudfront.net/ghost/2021/07/Resume-Builder--1-.png" title="Ease the Process of Getting started" text="Transform the way you approach Job change with our AI based tools and get closer to your dream Job" />
                 <Card image="https://d31kzl7c7thvlu.cloudfront.net/ghost/2021/07/LinkedIn-Reviewer.png" title="AI powered Platform" text="Transform the way you approach Job change with our AI based tools and get closer to your dream Job" />
                 <Card image="https://d31kzl7c7thvlu.cloudfront.net/ghost/2021/07/Online-Profile.png" title="A complete Career Solution" text="Transform the way you approach Job change with our AI based tools and get closer to your dream Job" />
