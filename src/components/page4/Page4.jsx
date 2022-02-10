@@ -3,7 +3,7 @@ import React from 'react'
 export default function () {
     return (
         <div className='container mx-auto w-11/12'>
-            <div className="bg-orange-200 mt-8 px-12 py-8 flex justify-between items-center mx-auto rounded-xl shadow-2xl">
+            <div className="bg-orange-200 mt-8 px-12 py-8 flex justify-between items-start mx-auto rounded-xl shadow-2xl">
                 <div className="left">
                     <h3 className="text-2xl font-semibold">Already have a Resume?</h3>
                     <p className="mt-2">Upload your Resume, and instanly change designs</p>
