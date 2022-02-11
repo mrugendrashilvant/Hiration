@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <>
 
-            <nav className="bg-white border-gray-200 px-2 mt-4 text-lg sm:px-4 py-2.5 rounded dark:bg-gray-800">
+            <nav className="bg-white px-2 mt-4 text-lg py-2.5 rounded">
                 <div className="container flex flex-wrap justify-between items-center mx-auto">
                     <a href='#' className="flex">
                         <img className="mr-3" src={logo} alt="logo" />
