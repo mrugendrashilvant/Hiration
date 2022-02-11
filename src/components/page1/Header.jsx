@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../../assets/hiration_full_logo1.png';
 // className="mr-3 h-10"
 export default function Header() {
     return (
@@ -7,8 +8,7 @@ export default function Header() {
             <nav className="bg-white border-gray-200 px-2 mt-4 text-lg sm:px-4 py-2.5 rounded dark:bg-gray-800">
                 <div className="container flex flex-wrap justify-between items-center mx-auto">
                     <a href='#' className="flex">
-                        <img className="mr-3 h-10" src="https://media-exp1.licdn.com/dms/image/C4D0BAQGv42Ewhe7jjg/company-logo_200_200/0/1591559227890?e=2159024400&v=beta&t=HaW9fmYytTWYmCVooa1_reyjLtNlcvVP06hoRC5KijI" alt="logo" />
-                        <span className="self-center text-lg font-semibold whitespace-nowrap dark:text-white">Hiration</span>
+                        <img className="mr-3" src={logo} alt="logo" />
                     </a>
                     <button data-collapse-toggle="mobile-menu" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
                         <span className="sr-only">Open main menu</span>
@@ -36,7 +36,7 @@ export default function Header() {
                                 <a href="#" className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Login</a>
                             </li>
                             <li>
-                                <button className='bg-orange-500 duration-200 m-auto px-3 py-2 text-white hover:bg-transparent rounded-md hover:text-orange-500'>Create Resume</button>
+                                <button style={{ backgroundColor: "#FF9313" }} className='leading-5 text-sm m-auto rounded-md px-5 py-3 text-white hover:underline'>Create Resume</button>
                             </li>
                         </ul>
                     </div>

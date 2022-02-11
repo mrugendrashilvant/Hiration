@@ -36,7 +36,7 @@ function App() {
       <div className='container h-screen overflow-hidden mx-auto '>
         <Page8 />
       </div>
-      <div className='h-screen overflow-hidden bg-gray-800 mx-auto w-screen'>
+      <div className='relative h-screen overflow-hidden bg-gray-800 mx-auto w-screen'>
         <Page9 />
       </div>
     </>

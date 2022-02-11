@@ -1,19 +1,20 @@
 import React from 'react'
 import Cards from './Cards'
+import image from '../../assets/Group 2499.png'
 
 export default function Page3() {
     return (
         <div className='container mx-auto w-11/12'>
-            <div className="flex flex-row justify-between">
+            <div className="flex flex-row justify-evenly">
                 <div className="left w-1/4 mt-8">
                     <p className="text-orange-500">DESIGNS</p>
                     <h3 className="text-3xl font-semibold mt-4">25+ Resume Desing Templates</h3>
                     <p className="font-light text-gray-700 mt-4">Get 25+ ATS friendly resume design templates for every job profile!</p>
-                    <button className='mt-6 rounded-md bg-orange-500 px-8 py-4 duration-100 text-white hover:bg-transparent hover:text-orange-500 hover:border-2 hover:border-orange-500'>Browse Designs</button>
+                    <button style={{ backgroundColor: "#FF9313" }} className='mt-6 eading-5 text-xs rounded-md px-4 py-3 duration-100 text-white hover:bg-transparent hover:underline'>Browse Designs</button>
                 </div>
 
 
-                <img className='rounded-xl shadow-xl' src="https://d31kzl7c7thvlu.cloudfront.net/img/digital_portfolio/DP_2.webp" width="60%" alt="page3-image" />
+                <img className='w-3/5' src={image} alt="page3-image" />
             </div>
 
             <div className="flex justify-evenly mt-10">

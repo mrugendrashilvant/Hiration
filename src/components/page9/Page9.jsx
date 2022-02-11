@@ -1,17 +1,17 @@
 import React from 'react'
-
+import logo from '../../assets/Group 2553.png';
 export default function Page9() {
     return (
         <>
             <div className='mx-auto text-center text-white bg-gray-700 py-12 w-screen'>
                 <h1 className="text-4xl font-bold">Lets get you <span className='text-orange-500'>Hired!</span></h1>
                 <p className="font-normal mt-4 text-lg">Start with out Resume Builder, or if you have a Resume already, lets review it.</p>
-                <button className="bg-blue-500  mt-6 px-6 py-4 rounded-md shadow">Upload Resume</button>
-                <button className="bg-orange-500 mt-6 px-6 py-4 rounded-md shadow ml-4">Create Resume</button>
+                <button style={{ backgroundColor: "#0099FF" }} className="leading-5 text-xs px-8 py-3 mt-6 rounded-md">Upload Resume</button>
+                <button style={{ backgroundColor: "#FF9313" }} className="leading-5 text-xs px-8 py-3 mt-6 rounded-md ml-4">Create Resume</button>
             </div>
             <div className="container mx-auto w-11/12 text-white mt-6 flex justify-evenly items-start">
                 <div className="w-1/4" >
-                    <p className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">HIRATION</p>
+                    <img src={logo} alt="logo" />
                 </div>
                 <div className="w-3/4 flex justify-evenly">
                     <div className="flex flex-col">
@@ -43,7 +43,7 @@ export default function Page9() {
                     </div>
                 </div>
             </div>
-            <div className="mt-16 flex justify-between text-white mx-auto w-11/12 items-end">
+            <div className="relative flex justify-between text-white mx-auto w-11/12 items-end bottom-0 h-36">
                 <div className="left">
                     <p> &copy; 2021 Hiration, Inc. All rights reserved</p>
                     <p className='text-sm mt-4'>Cloud office | San Fransisco | New Delhi | Bangalore</p>
